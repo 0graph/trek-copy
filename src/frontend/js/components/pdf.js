@@ -5,7 +5,7 @@ const marginTopNewPages = 770; // margin top for pages other than main page
 
 export function modifyPdf(routeInfo) {
   // load existing pdf
-  const pathToPdf = '../../src/frontend/assets/itinerary.pdf';
+  const pathToPdf = 'assets/itinerary.pdf';
 
   // fetch and convert pdf to an array of bytes
   fetch(pathToPdf)

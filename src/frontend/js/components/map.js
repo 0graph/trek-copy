@@ -63,11 +63,11 @@ export class Map {
     async addStartMarkers(){
         
         var canoe_iconS = L.icon({
-            iconUrl: "../../src/frontend/assets/start-pin.svg",
+            iconUrl: "assets/start-pin.svg",
             iconSize:     [38, 95], // size of the icon
         });
         var canoe_iconE = L.icon({
-            iconUrl: "../../src/frontend/assets/end-pin.svg",
+            iconUrl: "assets/end-pin.svg",
             iconSize:     [38, 95], // size of the icon
         });
     
@@ -80,7 +80,7 @@ export class Map {
 
     async addNextMarker(day) {
         var canoe_iconS = L.icon({
-            iconUrl: "../assets/start-pin.svg",
+            iconUrl: "assets/start-pin.svg",
             iconSize:     [38, 95], // size of the icon
         });
 

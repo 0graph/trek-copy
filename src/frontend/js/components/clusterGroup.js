@@ -29,7 +29,7 @@ export default class ClusterGroup {
                 n += cluster_markers.length;
                 var scaledSize = Math.min(20, Math.max(10, n));
                 return  L.divIcon({
-                    html: '<div class="mycluster1"><img src="../../src/frontend/assets/tent.svg" alt="Tent"><div class="cluster-text">' + n + '</div></div>',
+                    html: '<div class="mycluster1"><img src="assets/tent.svg" alt="Tent"><div class="cluster-text">' + n + '</div></div>',
                     className: 'mycluster1',
                     iconSize: L.point(scaledSize, scaledSize)
                 });
@@ -188,14 +188,14 @@ export default class ClusterGroup {
     setMarkerStyles(layer) {
         const icons =  { // icon styles for various features
             "Designated Camping Site": L.icon({
-                iconUrl: '../../src/frontend/assets/tent.svg',
+                iconUrl: 'assets/tent.svg',
                 iconSize: [32, 32],
                 iconAnchor: [16, 32],
                 popupAnchor: [0, -32],
             }),
             
             "Access Point": L.icon({
-                iconUrl: '../../src/frontend/assets/access.svg',
+                iconUrl: 'assets/access.svg',
                 iconSize: [32, 32],
                 iconAnchor: [16, 32],
                 popupAnchor: [0, -32],
@@ -479,7 +479,7 @@ export default class ClusterGroup {
 
         routePathContainer.classList.add("route-path-container");
         routePathText.innerText = "Show path";
-        routePathImg.src = "../../src/frontend/assets/expand-all.svg";
+        routePathImg.src = "assets/expand-all.svg";
         routePathSpan.append(routePathImg);
         routePathSpan.append(routePathText);
         routePathContainer.append(routePathSpan);

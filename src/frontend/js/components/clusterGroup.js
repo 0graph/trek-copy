@@ -1,7 +1,7 @@
 import { setMarkerStyles, setPathStyles } from "./mapStyles.js";
 import { mapSettings } from "./mapSettings.js";
 
-const serverURL = "http://algonquin-api.geo-base.org:8080/geoserver/wfs?service=wfs&version=2.0.0&request=getfeature&typename="; //Geographic Web File Service
+const serverURL = "https://algonquin-api.geo-base.org:8080/geoserver/wfs?service=wfs&version=2.0.0&request=getfeature&typename="; //Geographic Web File Service
 
 const PathMarker = L.Marker.extend({
     options: {

@@ -1,28 +1,28 @@
 export function setMarkerStyles(subtype, geoJSON) {
     const icons =  { // icon styles for various features
         "Designated Camping Site": L.icon({
-            iconUrl: '../../src/frontend/assets/tent.svg',
+            iconUrl: 'assets/tent.svg',
             iconSize: [20, 20],
             iconAnchor: [10, 20],
             popupAnchor: [0, -20],
         }),
         
         "Access Point": L.icon({
-            iconUrl: '../../src/frontend/assets/access.svg',
+            iconUrl: 'assets/access.svg',
             iconSize: [20, 20],
             iconAnchor: [10, 20],
             popupAnchor: [0, -20],
         }),
     
         "Picnic Site": L.icon({
-            iconUrl: '../../src/frontend/assets/picnic_shelters.svg',
+            iconUrl: 'assets/picnic_shelters.svg',
             iconSize: [20, 20],
             iconAnchor: [10, 20],
             popupAnchor: [0, -20],
         }),
     
         "Clubhouse": L.icon({
-            iconUrl: '../../src/frontend/assets/historic_buildings.svg',
+            iconUrl: 'assets/historic_buildings.svg',
             iconSize: [20, 20],
             iconAnchor: [10, 20],
             popupAnchor: [0, -20],
